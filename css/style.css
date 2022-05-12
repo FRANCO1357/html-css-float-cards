@@ -3,7 +3,6 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
-    text-align: center;
 }
 
 .container{
@@ -17,19 +16,22 @@ h1{
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 40px;
+    text-align: center;
 }
 
 p{
     font-weight: 400;
     color: black;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .card{
     background-color: black;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
     height: 100px;
     float: left;
+    margin: 10px;
 }
 
 .clearfix::after{
@@ -59,7 +61,7 @@ h3{
 }
 
 a{
-    float: left;
+    text-align: left;
     color: rgb(108, 195, 232);
     text-decoration: none;
 }
