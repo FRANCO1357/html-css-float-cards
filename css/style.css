@@ -21,11 +21,8 @@ h1{
 
 p{
     font-weight: 400;
-}
-
-.container-cards{
-    background-color: red;
-    height: 300px;
+    color: black;
+    margin-bottom: 50px;
 }
 
 .card{
@@ -35,8 +32,34 @@ p{
     float: left;
 }
 
-.clearfix{
+.clearfix::after{
     content: '';
     display: table;
     clear: both;
+}
+
+img{
+    height: 100px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+
+h3{
+    color: white;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.card p{
+    color: white;
+    text-align: left;
+    margin: 5px 0;
+}
+
+a{
+    float: left;
+    color: rgb(108, 195, 232);
+    text-decoration: none;
 }
